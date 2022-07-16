@@ -55,9 +55,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for Web applications"
     ),
     emoji("⚡ Best Coding Practices to keep App Scalable and well Managed"),
-    emoji(
-      "⚡ Integration of third party services"
-    )
+    emoji("⚡ Integration of third party services")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -84,7 +82,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -120,7 +118,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Gujrat",
-      logo: require("./assets/images/UOGLogo.png"),
+      logo: require("./assets/images/uog-logo.webp"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Oct 2015 - Nov 2019",
       desc: "",
@@ -168,29 +166,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "I.T Services",
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverr.png"),
+      date: "June 2019 – Present",
+      desc: "Providing I.T services to International clients. This gave me exposure of working with some awesome people and businesses.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "WordPress",
+        "Data Analysis - Python",
+        "Data Visualization - Tableau",
+        "JavaScript"
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Nova Solutions",
+      companylogo: require("./assets/images/nova.jpeg"),
+      date: "Feb 2021 – March 2022",
+      desc: "I call working at Nova Solutions as the beginning of my Web Development Career. I provided Layout conversion services, which includes converting Figma PSD Designs into responsive web pages.",
+      descBullets: [
+        "Material UI / BootStrap",
+        "SASS",
+        "React Js",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front-End Developer",
+      company: "Contrive Solutions",
+      companylogo: require("./assets/images/contrive.png"),
+      date: "March 2022 – Present",
+      desc: "Working with Contrive Solutions has helped me grow as a developer. I have worked with high-end projects which has given me the opportunity to expand my tech stack.",
+      descBullets: [
+        "React Js ",
+        "Vue Js ",
+        "TypeScript",
+        "Redux",
+        "Material UI / BootStrap"
+      ]
     }
   ]
 };
