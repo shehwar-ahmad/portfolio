@@ -1,55 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aaf229764a6e76b449885cb2b2d6a2dc",
+    "revision": "c8b2d33d428cff2cf2aee4d5956675e4",
     "url": "/index.html"
   },
   {
-    "revision": "885cc2a83f7150ca8f9f",
+    "revision": "e79712b3058206fc2907",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "36b080b5b1dee5a0b6ed",
+    "revision": "9a1a6e212e46b93378b4",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "ecc941fa3f68da3054ec",
+    "revision": "132efc2dc78c087890b1",
     "url": "/static/css/main.83b6b8c5.chunk.css"
   },
   {
-    "revision": "bd2534304673ba2ec371",
-    "url": "/static/js/2.ce48cb0a.chunk.js"
+    "revision": "e700d59276736dc1c8f0",
+    "url": "/static/js/2.e85f9fa3.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.ce48cb0a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e85f9fa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "885cc2a83f7150ca8f9f",
-    "url": "/static/js/3.10324136.chunk.js"
+    "revision": "e79712b3058206fc2907",
+    "url": "/static/js/3.5037e296.chunk.js"
   },
   {
-    "revision": "36b080b5b1dee5a0b6ed",
-    "url": "/static/js/4.afe8fb20.chunk.js"
+    "revision": "9a1a6e212e46b93378b4",
+    "url": "/static/js/4.aa2ec175.chunk.js"
   },
   {
-    "revision": "ecc941fa3f68da3054ec",
-    "url": "/static/js/main.402336d8.chunk.js"
+    "revision": "132efc2dc78c087890b1",
+    "url": "/static/js/main.187b3b69.chunk.js"
   },
   {
-    "revision": "59ef1d25c7cea3a00476",
-    "url": "/static/js/runtime-main.42bbf704.js"
+    "revision": "75d03172df7eade8cf5c",
+    "url": "/static/js/runtime-main.8717dc6e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
+    "revision": "6f540569e3670edd67c153189aada516",
+    "url": "/static/media/Javascript.6f540569.png"
+  },
+  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/static/media/codeInLogo.47a7a717.webp"
+    "revision": "04c0b924a9ed951259d384999ff707e2",
+    "url": "/static/media/Software-Architecture.04c0b924.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -64,20 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "ee62cb58630f29a6e6201b49d4c03728",
-    "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
