@@ -258,6 +258,7 @@ const achievementSection = {
       title: "Software Architecture: Patterns for Developers",
       subtitle: "",
       image: require("./assets/images/Software-Architecture.png"),
+      imageAlt: "Certificate",
       footerLink: [
         {
           name: "Certification",
@@ -269,6 +270,7 @@ const achievementSection = {
       title: "JavaScript Algorithms and Data Structures",
       subtitle: "",
       image: require("./assets/images/Javascript.png"),
+      imageAlt: "Certificate",
       footerLink: [
         {
           name: "Certification",
@@ -280,6 +282,7 @@ const achievementSection = {
       title: "Learning Next.js",
       subtitle: "",
       image: require("./assets/images/nextjs.jpeg"),
+      imageAlt: "Certificate",
       footerLink: [
         {
           name: "Certification",
@@ -362,6 +365,8 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
@@ -378,5 +383,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
