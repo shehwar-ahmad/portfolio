@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a109ba2bbfbaabbdd4bb92e26b30ebc",
+    "revision": "cf4540ed64698e2ab1ea8162521d3f25",
     "url": "/index.html"
   },
   {
-    "revision": "e79712b3058206fc2907",
+    "revision": "885cc2a83f7150ca8f9f",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "9a1a6e212e46b93378b4",
+    "revision": "36b080b5b1dee5a0b6ed",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "7447d203562b536016b9",
+    "revision": "2373774f5fa4209534d3",
     "url": "/static/css/main.83b6b8c5.chunk.css"
   },
   {
-    "revision": "e700d59276736dc1c8f0",
-    "url": "/static/js/2.e85f9fa3.chunk.js"
+    "revision": "bd2534304673ba2ec371",
+    "url": "/static/js/2.ce48cb0a.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.e85f9fa3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ce48cb0a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e79712b3058206fc2907",
-    "url": "/static/js/3.5037e296.chunk.js"
+    "revision": "885cc2a83f7150ca8f9f",
+    "url": "/static/js/3.10324136.chunk.js"
   },
   {
-    "revision": "9a1a6e212e46b93378b4",
-    "url": "/static/js/4.aa2ec175.chunk.js"
+    "revision": "36b080b5b1dee5a0b6ed",
+    "url": "/static/js/4.afe8fb20.chunk.js"
   },
   {
-    "revision": "7447d203562b536016b9",
-    "url": "/static/js/main.503a3a08.chunk.js"
+    "revision": "2373774f5fa4209534d3",
+    "url": "/static/js/main.4b17d994.chunk.js"
   },
   {
-    "revision": "75d03172df7eade8cf5c",
-    "url": "/static/js/runtime-main.8717dc6e.js"
+    "revision": "59ef1d25c7cea3a00476",
+    "url": "/static/js/runtime-main.42bbf704.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -72,12 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
+    "revision": "780a101e1796736919bfb0b9cf52f036",
+    "url": "/static/media/nextjs.780a101e.jpeg"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
@@ -90,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4553a21d39a22e2ab8dc594b1e28dd1c",
     "url": "/static/media/uog-logo.4553a21d.webp"
+  },
+  {
+    "revision": "759fda18870e15e31286d5acc501a6ad",
+    "url": "/static/media/veva.759fda18.png"
   }
 ]);
