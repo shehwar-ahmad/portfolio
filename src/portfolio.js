@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Passionate front-end developer who loves to create real-world web applications that can impact user's life.  I have expertise in JavaScript ( ES5 ES6 ), React.Js, CSS Frameworks, and version control systems.   I strongly feel that my previous work experiences have equipped me with skills that I can effectively offer to any Web Development team. 🚀"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -145,16 +144,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "JavaScript", //Insert stack or technology you have experience in
+      Stack: "React.js", //Insert stack or technology you have experience in
       progressPercentage: "97%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "React.Js",
+      Stack: "Next.js",
       progressPercentage: "96%"
     },
     {
-      Stack: "CSS Frameworks",
-      progressPercentage: "90%"
+      Stack: "Vue",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -218,30 +217,32 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/veva.png"),
+      projectName: "VevaCollect",
+      projectDesc:
+        "Audio, file sharing, credits and metadata built specifically for the music industry. Store all of your released and unreleased music, share audio, credits and collaborate.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://vevacollect.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ifacility.png"),
+      projectName: "Ifacility",
+      projectDesc:
+        "Ifacility provides services in Security Sector. They help you install what you need to safeguard your business, property, and people, our end-to-end service delivers a whole lot more.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.ifacility.co.uk/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -272,6 +273,17 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.freecodecamp.org/certification/shehwar/javascript-algorithms-and-data-structures"
+        }
+      ]
+    },
+    {
+      title: "Learning Next.js",
+      subtitle: "",
+      image: require("./assets/images/nextjs.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.linkedin.com/learning/certificates/2540eb47a70e7631e73c459e8171ccc12ed5213126bd48c2f2c50fd93bd5ab74"
         }
       ]
     }
