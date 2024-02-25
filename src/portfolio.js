@@ -240,6 +240,18 @@ const bigProjects = {
           url: "https://www.ifacility.co.uk/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/powandgo.png"),
+      projectName: "Powandgo",
+      projectDesc:
+        "The first charge sharing service that will change the way to charge electric vehicle, saving money in charging costs and allowing charging station owners to earn.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.powandgo.com"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
