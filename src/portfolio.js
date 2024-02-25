@@ -48,12 +48,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate Front-End Developer who loves to explore!",
+  subTitle: "Passionate Web Developer who loves to explore!",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for Web applications"
     ),
-    emoji("⚡ Best Coding Practices to keep App Scalable and well Managed"),
+    emoji(
+      "⚡ Engineer a robust and scalable Backend foundation for Web applications"
+    ),
+    emoji("⚡ Best Coding Practices to keep App Scalable and Well Managed"),
     emoji("⚡ Integration of third party services")
   ],
 
@@ -81,7 +84,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-
+    {
+      skillName: "node.js",
+      fontAwesomeClassname: "fab fa-brands fa-node"
+    },
+    {
+      skillName: "vue",
+      fontAwesomeClassname: "fab fa-brands fa-vuejs"
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -105,8 +115,9 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+    },
+
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -144,17 +155,13 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "React.js", //Insert stack or technology you have experience in
-      progressPercentage: "97%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development (React.js, Next.js, Vue.js)", //Insert stack or technology you have experience in
+      progressPercentage: "99%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Next.js",
+      Stack: "Backend Development (Node.js, Express.js, Nest.js)",
       progressPercentage: "96%"
     },
-    {
-      Stack: "Vue",
-      progressPercentage: "95%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -165,38 +172,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "I.T Services",
-      company: "Fiverr",
-      companylogo: require("./assets/images/fiverr.png"),
-      date: "June 2019 – Present",
-      desc: "Providing I.T services to International clients. This gave me exposure of working with some awesome people and businesses.",
+      role: "Web Development",
+      company: "Upwork",
+      companylogo: require("./assets/images/upwork.png"),
+      date: "June 2019 – Feb 2020",
+      // desc: "Providing I.T services to International clients. This gave me exposure of working with some awesome people and businesses.",
       descBullets: [
         "WordPress",
+        "JavaScript",
         "Data Analysis - Python",
-        "Data Visualization - Tableau",
-        "JavaScript"
+        "Data Visualization - Tableau"
       ]
     },
     {
       role: "Front-End Developer",
       company: "Nova Solutions",
       companylogo: require("./assets/images/nova.jpeg"),
-      date: "Feb 2021 – March 2022",
-      desc: "I call working at Nova Solutions as the beginning of my Web Development Career. I provided Layout conversion services, which includes converting Figma PSD Designs into responsive web pages.",
-      descBullets: ["Material UI / BootStrap", "SASS", "React Js"]
+      date: "Feb 2020 – March 2022",
+      // desc: "I call working at Nova Solutions as the beginning of my Web Development Career. I provided Layout conversion services, which includes converting Figma PSD Designs into responsive web pages.",
+      descBullets: ["React Js","Material UI", "SASS", "Tailwind", "Bootstrap"]
     },
     {
       role: "Front-End Developer",
       company: "Contrive Solutions",
       companylogo: require("./assets/images/contrive.png"),
-      date: "March 2022 – Present",
-      desc: "Working with Contrive Solutions has helped me grow as a developer. I have worked with high-end projects which has given me the opportunity to expand my tech stack.",
+      date: "March 2022 – August 2023",
+      // desc: "Working with Contrive Solutions has helped me grow as a developer. I have worked with high-end projects which has given me the opportunity to expand my tech stack.",
       descBullets: [
         "React Js ",
         "Vue Js ",
         "TypeScript",
         "Redux",
-        "Material UI / BootStrap"
+        "Material UI",
+        "Bootstrap"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "MTP",
+      companylogo: require("./assets/images/mtp.png"),
+      date: "August 2023 – Present",
+      // desc: "Working with Contrive Solutions has helped me grow as a developer. I have worked with high-end projects which has given me the opportunity to expand my tech stack.",
+      descBullets: [
+        "Next.js",
+        "Nest.js",
+        "React Js",
+        "Vue Js",
       ]
     }
   ]
@@ -213,7 +234,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
