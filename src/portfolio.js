@@ -23,7 +23,7 @@ const greeting = {
   username: "Shehwar",
   title: "Hi, I'm Shehwar",
   subTitle: emoji(
-    "Passionate front-end developer who loves to create real-world web applications that can impact user's life.  I have expertise in JavaScript ( ES5 ES6 ), React.Js, CSS Frameworks, and version control systems.   I strongly feel that my previous work experiences have equipped me with skills that I can effectively offer to any Web Development team. 🚀"
+    "Web developer with 5 years of industry experience, specializing in building scalable applications. I excel in frontend development using React.js, Vue.js, and Next.js, and have strong backend skills with Node.js, Express.js, and Nest.js. I am dedicated to delivering high-quality, efficient solutions and continuously enhancing my skill set. 🚀"
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate Web Developer who loves to explore!",
+  subTitle: "Transform coffee into code!",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for Web applications"
@@ -71,6 +71,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "sass",
@@ -115,9 +119,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
-
-],
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -161,7 +164,7 @@ const techStack = {
     {
       Stack: "Backend Development (Node.js, Express.js, Nest.js)",
       progressPercentage: "96%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -187,10 +190,10 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Nova Solutions",
-      companylogo: require("./assets/images/nova.jpeg"),
+      companylogo: require("./assets/images/nova-logo.png"),
       date: "Feb 2020 – March 2022",
       // desc: "I call working at Nova Solutions as the beginning of my Web Development Career. I provided Layout conversion services, which includes converting Figma PSD Designs into responsive web pages.",
-      descBullets: ["React Js","Material UI", "SASS", "Tailwind", "Bootstrap"]
+      descBullets: ["React Js", "Material UI", "SASS", "Tailwind", "Bootstrap"]
     },
     {
       role: "Front-End Developer",
@@ -213,12 +216,7 @@ const workExperiences = {
       companylogo: require("./assets/images/mtp.png"),
       date: "August 2023 – Present",
       // desc: "Working with Contrive Solutions has helped me grow as a developer. I have worked with high-end projects which has given me the opportunity to expand my tech stack.",
-      descBullets: [
-        "Next.js",
-        "Nest.js",
-        "React Js",
-        "Vue Js",
-      ]
+      descBullets: ["Next.js", "Nest.js", "React Js", "Vue Js", "AWS"]
     }
   ]
 };
